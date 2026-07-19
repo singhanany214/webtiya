@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>For You 🌙</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- STARS -->
+
+<div id="stars"></div>
+<div id="stars2"></div>
+<div id="stars3"></div>
+
+<div class="moon"></div>
+
+<div class="overlayGlow"></div>
+
+<!-- PAGE 1 -->
+
+<section class="page active" id="page1">
+
+<h1>Hey Tiyuuuuu</h1>
+
+<p class="type">
+
+I know things have been really difficult lately
+
+
+<p class="type">
+
+I simply wanted to leave
+something here for ya
+
+</p>
+
+<button onclick="nextPage()">
+
+Continue →
+
+</button>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section class="page"
+
+id="page2">
+
+<h1>
+
+Little Memories 🌙
+
+</h1>
+
+<p>
+
+Open whichever one
+you feel like.
+
+</p>
+
+<div class="memoryGrid">
+
+<div class="memoryCard"
+
+onclick="openMemory(0)">
+
+<img src="assets/t1.jpeg">
+
+<div class="play">
+
+▶
+
+</div>
+
+<h3>
+
+The Cuttuuu
+
+</h3>
+
+</div>
+
+<div class="memoryCard"
+
+onclick="openMemory(1)">
+
+<img src="assets/r.jpeg">
+
+<div class="play">
+
+▶
+
+</div>
+
+<h3>
+
+ROBLOOXXXX
+
+</h3>
+
+</div>
+
+<div class="memoryCard"
+
+onclick="openMemory(2)">
+
+<img src="assets/bs.jpeg">
+
+<div class="play">
+
+▶
+
+</div>
+
+<h3>
+
+She-Bs? Me-aajao
+
+</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- VIDEO PAGE -->
+
+<section class="page"
+
+id="memoryPage">
+
+<button
+class="back"
+
+onclick="closeMemory()">
+
+← Back
+
+</button>
+
+<video
+
+id="memoryVideo"
+
+controls
+
+playsinline
+
+></video>
+
+<h2
+
+id="memoryTitle">
+
+</h2>
+
+<p
+
+id="memoryText">
+
+</p>
+
+<button onclick="openFinalPage()">
+
+Finish 🌙
+
+</button>
+
+</section>
+
+<script src="script.js">
+
+</script>
+<!-- FINAL PAGE -->
+
+<section class="page" id="finalPage">
+
+    <div class="finalContainer">
+
+        <h1>🌙</h1>
+
+        <h2>Thank You Tiyuuuu</h2>
+
+        <p>
+
+            Thank you for taking the time
+            to visit this aah website i made in a short time
+
+        </p>
+
+        <p>
+
+            It's fine if you don't reply
+
+            you said you were not in a good mood that time i don't know the exact reasons for it 
+            but yeah i just can't leave ya like this when u r not feeling good 
+            soo i just tried to make something to make your mood a lil bit good and i hope it does
+
+        </p>
+
+        <p>
+
+            
+            and yeah takee careeeee of yourself and im always here if ya need me...
+
+            
+
+        </p>
+
+        <div class="heartIcon">
+
+            ❤️
+
+        </div>
+
+    </div>
+
+</section>
+</body>
+
+</html>
